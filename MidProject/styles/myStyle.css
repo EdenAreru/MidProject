@@ -1,0 +1,97 @@
+body 
+{
+    direction:rtl;
+}
+#mainNav ul {
+    margin-right: 60px;
+    margin-top: 30px;
+}
+#mainNav ul li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+  
+}
+#mainNav ul li a {
+        display: block;
+        background-color: #2f2f33;
+        color: white;
+        width: 210px;
+        height: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+#mainNav ul li a:hover {
+            opacity: 0.8;
+            color: white;
+        }
+#mainNav ul li a:active {
+            background-color: darkgray;
+            color: black;
+        }
+#breadNav ul {
+    display:block;
+    margin: 30px;
+}
+#breadNav ul li {
+    display: inline-block;  
+}
+#breadNav ul li:after {
+        content: ">";
+    }
+#breadNav ul li:last-child:after {
+        content: "";
+    }
+#currentPage a {
+    background-color: darkgray !important;
+    color: black !important;
+    border: 1px solid black;
+    padding-top: 8px !important;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+#homepage {
+    background-image: url('../images/mountain-homepage.jpg');
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: top;
+    background-size:960px;
+}
+#homepage header h1 {
+        color: white;
+        font-size: 32pt;
+        /*padding: 60px 60px 10px 60px;*/
+        text-align: center;
+        /*background-color: white;*/
+        margin-top: 30px;
+    }
+#homepage section h2 {
+        color: white;
+        font-size: 16pt;
+        margin-top: 200px;
+    }
+#products {
+    background-image: url('../images/mountains.jpg');
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: top;
+    background-size: 960px;
+}
+#video {
+    margin: -170px 239px 100px 60px;
+}
+audio{
+    float:left;
+}
+#floatleftAvater {
+    margin-top: -402px;
+    margin-left: 57px;
+    float: left;
+}
+#floatrightAvater {
+    margin-right: 57px;
+}
